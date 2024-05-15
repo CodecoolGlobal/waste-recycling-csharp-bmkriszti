@@ -7,5 +7,13 @@ namespace Codecool.WasteRecycling
         {
             IsSqueezed = isSqueezed;
         }
+
+        public void Squeeze()
+        {
+            if (!IsSqueezed)
+            {
+                IsSqueezed = true;
+            }
+        }
     }
 }
